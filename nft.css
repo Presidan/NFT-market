@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient( to right, rgb(3, 3, 253), rgb(34, 48, 4));
+    color: rgb(248, 248, 248);
+}
+.container{
+    padding: 2vh 5vw;
+    color: white;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo{
+    display: flex;
+}
+.logo h4{
+    padding-top: 8.5vh;
+    margin-left: -2.6vw;
+    font-family: dancing script;
+}
+.log{
+    width: 140px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 2vh 1.2vw;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.btn{
+    margin-right: 3vw;
+    display: flex;
+    justify-content: space-between;
+}
+.btn button{
+    padding: 1vh 1vw;
+    border: none;
+}
+.btn .but1 button{
+    background: blue;
+    color: white;
+    margin-left: 2vw;
+}
+.btn .but1 button a{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(226, 226, 226);
+}
+.btn .but2 button{
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+}
+.btn .but2 button a{
+    text-decoration: none;
+    font-size: 18px;
+    color:rgb(255, 255, 255);
+}
+.body{
+    padding: 2vh 5vw;
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+.left-col{
+    flex-basis: 60%;
+    position: relative;
+    margin-left: 50px;
+}
+.left-col h1{
+    font-family: kalam;
+    font-size: 100px;
+    line-height: 120px;
+}
+.left-col h5{
+    font-size: 25px;
+    font-weight: 300;
+    padding-bottom: 4vh;
+}
+.btnn{
+    display: flex;
+    text-decoration: none;
+}
+.btnn button{
+    padding: 2vh 1vw;
+    border: none;
+}
+.btnn .but3 button{
+    background: blue;
+    color: white;
+}
+.btnn .but3 button a{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(226, 226, 226);
+}
+.btnn .but4 button{
+    background: transparent;
+    color: rgb(255, 255, 255);
+}
+.btnn .but4 button a{
+    text-decoration: none;
+    font-size: 18px;
+    color:rgb(255, 255, 255);
+}
+.data{
+    padding-top: 5vh;
+}
+.data h2{
+    font-size: 30px;
+}
+.data h4{
+    font-size: 20px;
+    padding-top: 2vh;
+    color: rgb(94, 90, 90);
+}
+.by{
+    padding-top: 5vh;
+    color: rgb(94, 90, 90);
+}
+.ryt-col{
+    margin-top: -42vh;
+    margin-left: 5vw;
+}
+.top-img{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -7vw;
+}
+.top-img img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.main img{
+    width: 500px;
+    margin-top: -45vh;
+}
+.txt{
+    margin-left: 3vw;
+}
+
+@media only screen and (max-width:800px){
+    nav ul{
+        width: 100%;
+        background: white;
+        color: blue;
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+    }
+    nav ul li{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a{
+        color: blue;
+    }
+    .body{
+        flex-direction: column;
+        margin: 50px 0;
+    }
+    .left-col{
+        flex-basis: 100%;
+        margin-bottom: 50px;
+    }
+    .left-col h1{
+        font-size: 60px;
+        line-height: 50px;
+    }
+    .ryt-col{
+        flex-basis: 100%;
+    }
+    .main img{
+        width: 350px;
+        padding-left:-15vw;
+    }
+    .txt h2{
+        font-size: 25px;
+    }
+    .txt h3{
+        font-size: 10px;
+    }
+}
